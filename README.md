@@ -46,7 +46,9 @@ With little knowledge of electronics and a minimum base of programming we can ge
 We will focus for this example on **Mode 2.**
 
 ### Can I send 0.01 ERG to a friend's wallet just by making a call or sending an SMS?  
-Of course you can, you can do this type of sending and many other actions. Let's see how to send 0.01 ERG to a friend by making a call.
+Of course you can, you can do this type of sending and many other actions. 
+
+### Let's see how to send 0.01 ERG to a friend by making a call.
 
 This example could be fully developed with a Raspberry Pi Zero, since it has GPIO for the SIM800L module and the Ergo node versions are incredibly light and fast to synchronize. Although we will leave it for the next example.
 
