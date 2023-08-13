@@ -6,11 +6,13 @@ Before explaining the technology behind this prototype let's see different uses 
 
 With little knowledge of electronics and a minimum base of programming we can get to give infinite uses. The first thing we must differentiate from mobilERG are 2 very different modes of use:
 
-- **Mode 1**: mobilERG notifies us that an event has occurred in the distance by means of a call or SMS.
-- **Mode 2**: We make a call or send an SMS to alert mobilERG to start performing a previously defined action.
+- Mode 1: mobilERG notifies us that an event has occurred in the distance by means of a call or SMS.
+- Mode 2: We make a call or send an SMS to alert mobilERG to start performing a previously defined action.
 
 <hr>
-###Mode 1
+
+## Mode 1
+
 **I will list some uses to see it clearly so that we can appreciate the potential of Mode 1** (the system is the one who notifies me that an event has occurred):
 - Ergo's price goes up and I get an SMS on my personal phone indicating that Ergo is on its way to the moon.
 - My Ergo wallet went from having 100 ERG to having 103 ERG.
@@ -19,7 +21,8 @@ With little knowledge of electronics and a minimum base of programming we can ge
 
 <hr>
 
-###Mode 2
+### Mode 2
+
 **List some uses to see clearly and that we can appreciate the potential of Mode 2** (we notify the system so that some action is carried out in the distance):
 - Send ERG to a specific wallet.
 - Create a token.
@@ -32,16 +35,17 @@ With little knowledge of electronics and a minimum base of programming we can ge
 <hr>
 
 **Mode 1**: mobilERG alerts us that something has happened.
+
 **Mode 2**: We alert mobilERG to perform an action.
 
 (**Mode 1** and **Mode 2** alerts can be by phone call or by sending and receiving SMS). 
 
 <hr>
 
-## Development of the example
+### Development of the example
 We will focus for this example on **Mode 2.**
 
-####Can I send 0.01 ERG to a friend's wallet just by making a call or sending an SMS?  
+### Can I send 0.01 ERG to a friend's wallet just by making a call or sending an SMS?  
 Of course you can, you can do this type of sending and many other actions. Let's see how to send 0.01 ERG to a friend by making a call.
 
 This example could be fully developed with a Raspberry Pi Zero, since it has GPIO for the SIM800L module and the Ergo node versions are incredibly light and fast to synchronize. Although we will leave it for the next example.
@@ -55,7 +59,7 @@ Now let's see how to do it using these components:
 
 <hr>
 
-####A brief summary of how mobilERG works:
+### A brief summary of how mobilERG works:
 On one side I have an Arduino with a SIM800L module connected (this module allows to send calls, SMS and receive them). This Arduino by means of AT commands analyzes what happens in the SIM800L module and based on the values (SMS or calls that it sends or receives) sends through the serial port the information that I indicate to it.
 
 On the other hand I have running a mini application written in Python reading the serial port of my computer. Based on the values it receives (values I send from Arduino) I can send ERG, create a token, or whatever I want.
