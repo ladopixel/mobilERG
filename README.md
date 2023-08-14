@@ -1,5 +1,7 @@
 # mobilERG
 
+<img src="https://ergonfts.org/other_images/ergo_platform.jpg" alt="Logotipo de Ergo">
+
 ## What is it and what can I do with mobilERG?
 
 Before explaining the technology behind this prototype let's see different uses we could give it, I think this way it is much better understood. From now on when I name mobilERG I will be referring to the whole working prototype.

@@ -1,5 +1,7 @@
 # mobilERG
 
+<img src="https://ergonfts.org/other_images/ergo_platform.jpg" alt="Logotipo de Ergo">
+
 ## ¿Qué es y qué puedo hacer con mobilERG?
 
 Antes de explicar la tecnología que existe detrás de este prototipo vamos a ver diferentes usos que podríamos darle, creo que de esta forma se entiende mucho mejor. A partir de ahora cuando nombre a mobilERG estaré haciendo referencia a todo el prototipo funcionando.
@@ -70,7 +72,7 @@ Por otro lado tengo ejecutándose una mini aplicación escrita en Python leyendo
 
 ## Conexión para el módulo SIM800L a nuestro Arduino UNO
 
-**Diodo 1N4007** 
+**Diodo 1N4007**
 Este diodo nos servirá para alimentar de forma correcta el módulo SIM800L (restamos 0,7 voltios), ya que lo estamos alimentando con 5 voltios y únicamente necesita 4,3 voltios.
 
 <img src="https://ergonfts.org/other_images/sim800L-connection.png" alt="Esquema de conexión para Arduino y SIM800L">
