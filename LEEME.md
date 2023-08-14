@@ -65,3 +65,12 @@ Ahora vamos a ver cómo realizarlo usando estos componentes:
 Por un lado tengo un Arduino con un módulo SIM800L conectado (este módulo permite enviar llamadas, SMS y recibirlos). Este Arduino mediante comandos AT analiza lo que ocurre en el módulo SIM800L y en base a los valores (SMS o llamadas que envía o recibe) envía por el puerto serial la información que yo le indique.
 
 Por otro lado tengo ejecutándose una mini aplicación escrita en Python leyendo el puerto serial de mi equipo. En base a los valores que recibe (valores que envío desde Arduino) puedo enviar ERG, crear un token, o lo que me apetezca.
+
+<hr>
+
+## Conexión para el módulo SIM800L a nuestro Arduino UNO
+
+**Diodo 1N4007** 
+Este diodo nos servirá para alimentar de forma correcta el módulo SIM800L (restamos 0,7 voltios), ya que lo estamos alimentando con 5 voltios y únicamente necesita 4,3 voltios.
+
+<img src="https://ergonfts.org/other_images/sim800L-connection.png" alt="Esquema de conexión para Arduino y SIM800L">
