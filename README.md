@@ -65,3 +65,12 @@ Now let's see how to do it using these components:
 On one side I have an Arduino with a SIM800L module connected (this module allows to send calls, SMS and receive them). This Arduino by means of AT commands analyzes what happens in the SIM800L module and based on the values (SMS or calls that it sends or receives) sends through the serial port the information that I indicate to it.
 
 On the other hand I have running a mini application written in Python reading the serial port of my computer. Based on the values it receives (values I send from Arduino) I can send ERG, create a token, or whatever I want.
+
+<hr>
+
+## Connection for the SIM800L module to our Arduino UNO
+
+**Diode 1N4007** 
+This diode will serve to supply the SIM800L module correctly (we subtract 0.7 volts), since we are supplying it with 5 volts and it only needs 4.3 volts.
+
+<img src="https://ergonfts.org/other_images/sim800L-connection.png" alt="Wiring diagram for Arduino and SIM800L">
