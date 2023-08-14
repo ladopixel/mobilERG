@@ -68,6 +68,8 @@ Por un lado tengo un Arduino con un módulo SIM800L conectado (este módulo perm
 
 Por otro lado tengo ejecutándose una mini aplicación escrita en Python leyendo el puerto serial de mi equipo. En base a los valores que recibe (valores que envío desde Arduino) puedo enviar ERG, crear un token, o lo que me apetezca.
 
+<img src="https://ergonfts.org/other_images/flow-mobilERG.png" alt="mobilERG flow">
+
 <hr>
 
 ## Conexión para el módulo SIM800L a nuestro Arduino UNO

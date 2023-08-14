@@ -68,6 +68,8 @@ On one side I have an Arduino with a SIM800L module connected (this module allow
 
 On the other hand I have running a mini application written in Python reading the serial port of my computer. Based on the values it receives (values I send from Arduino) I can send ERG, create a token, or whatever I want.
 
+<img src="https://ergonfts.org/other_images/flow-mobilERG.png" alt="mobilERG flow">
+
 <hr>
 
 ## Connection for the SIM800L module to our Arduino UNO
